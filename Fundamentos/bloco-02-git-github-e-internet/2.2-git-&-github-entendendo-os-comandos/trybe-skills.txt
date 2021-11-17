@@ -3,5 +3,8 @@
 - Unix
 - Bash
 - Git
+- JavaScript
+- Lógica de programação
 - HTML
 - CSS
+
