@@ -1,0 +1,27 @@
+body{
+    font-size: 16px;
+}
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+.corf{
+    background-color: orangered;
+}
+p{
+    font-size: 3em;
+    font-weight: 600;
+    font-style: italic;
+    line-height: normal;
+    text-align: justify;
+}
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}
+#brown{
+    background-color: brown;
+}
