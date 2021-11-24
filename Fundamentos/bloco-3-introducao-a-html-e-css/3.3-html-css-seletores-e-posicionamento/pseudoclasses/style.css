@@ -1,0 +1,47 @@
+div:hover{
+
+    border: 3px solid black;
+}
+/* ################ */
+section div{
+    color: red;
+}
+section div h3{
+    font-size: 10px;
+    font-style: italic;
+}
+/* ########################## */
+section section div{
+    color: orange;
+}
+section section div h3{
+    font-size: 15px;
+    font-style: normal;
+}
+/* ######################### */
+section section section div{
+    height: 200px;
+    color: orchid;
+}
+section section section div h3{
+    font-size: 20px;
+    font-style: italic;
+}
+/* ######################## */
+section section section section div{
+    height: fit-content;
+    color: black;
+}
+section section section section div h3{
+    font-size: 25px;
+    font-style: normal;
+}
+/* ############################# */
+section section section section section div{
+    height: fit-content;
+    color: burlywood;
+}
+section section section section section div h3{
+    font-size: 30px;
+    font-style: italic;
+}

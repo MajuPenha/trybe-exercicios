@@ -1,0 +1,9 @@
+h1, p{
+    text-align: center;
+}
+ol:hover{
+    background-color: blueviolet;
+}
+li:active{
+    font-weight: bold;
+}
