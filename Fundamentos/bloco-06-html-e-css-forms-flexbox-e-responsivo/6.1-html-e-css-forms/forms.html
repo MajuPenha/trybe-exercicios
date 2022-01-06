@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <header>
+    <h1>Formulário de cadastro de currículo</h1>
+  </header>
+  <main id="page">
+    <form action="" method="get">
+      <fieldset>
+
+        <legend>Dados Pessoais</legend>
+
+        <div class="row">
+          <label for="input-name">Nome: 
+            <input type="text" name="name" id="input-name" maxlength="40" required>
+          </label>
+          <label for="input-email">Email: 
+            <input type="email" name="email" id="input-email" maxlength="50" required>
+          </label>
+        </div>
+
+      <div class="row">
+          <label for="input-cpf">CPF: 
+          <input type="number" name="cpf" id="input-cpf" maxlength="11" required>
+        </label>
+      </div>
+
+      <div class="row">
+        <label for="input-address">Endereço: 
+          <input type="text" name="address" id="input-address">
+        </label>
+        <label for="input-city">Cidade: 
+          <input type="text" name="city" id="input-city">
+        </label>
+        <label for="">Estado: 
+          <select name="state" id="select-state" required></select>
+        </label>
+      </div>
+
+      <div class="row">
+        <label for="">Tipo: 
+          <label for="input-housing">
+            <input type="radio" name="housing" id="input-housing" checked>Casa
+          </label>
+          <label for="input-housing-2">
+            <input type="radio" name="housing" id="input-housing-2">Apartamento
+          </label>
+        </label>
+      </div>
+      
+      </fieldset>
+
+      <fieldset>
+
+        <legend>Dados do seu último emprego</legend>
+
+        <div class="row">
+          <label for="">Resumo do currículo: </label><br>
+          <textarea name="abstract" id="abstract-resume" cols="30" rows="5" maxlength="1000" required></textarea>
+        </div>
+
+        <div class="row">
+          <label for="">Cargo: 
+            <input type="text" name="position" id="input-position" max="40" required>
+          </label>
+        </div>
+
+        <div class="row">
+          <label for="">Descrição do cargo: 
+            <input type="text" name="description" id="input-description" max="500" required>
+          </label>
+          <label for="">Data de início: 
+            <input type="date" name="date" id="input-date">
+          </label>
+        </div>
+
+      </fieldset>
+      <button type="submit" id="submit-btn">Enviar</button>
+      <button type="reset" id="reset-btn">Limpar</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
