@@ -1,8 +1,0 @@
-Internet
-Unix
-Bash
-Shell
-Kernell
-Linux
-Terminal
-PID
