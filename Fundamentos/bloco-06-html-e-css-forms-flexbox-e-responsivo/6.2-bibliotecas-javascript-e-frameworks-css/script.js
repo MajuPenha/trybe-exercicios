@@ -13,6 +13,8 @@ const position = document.querySelector('[name=position]')
 const description = document.querySelector('[name=description]')
 const date = document.querySelector('[name=date]')
 
+var picker = new Pikaday({ field: document.getElementById('datepicker') });
+
 
 
 function createState(){
