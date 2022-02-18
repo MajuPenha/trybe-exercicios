@@ -1,0 +1,30 @@
+h1 {
+  width: fit-content;
+  margin: 20px auto;
+  font-size: 40px;
+
+}
+section {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+ }
+
+ .cards {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 5px;
+   margin: 10px 20px;
+   width: 200px;
+   border: 2px solid gray;
+   border-radius: 10px;
+   
+ }
+
+ p {
+
+ }
