@@ -33,7 +33,7 @@ const postValidation = async (body) => {
     code: 404,
   };
   
-  const [ceps] = await getCeps(body.cep);
+  const ceps = await getCeps(body.cep);
   if(ceps.length) return {
     message: { "error": { "code": "alreadyExists", "message": "CEP já existente" }},
     code: 409,
