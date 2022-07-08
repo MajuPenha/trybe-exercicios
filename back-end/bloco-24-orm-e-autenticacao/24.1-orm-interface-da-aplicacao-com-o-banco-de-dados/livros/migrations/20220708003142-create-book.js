@@ -19,11 +19,6 @@ module.exports = {
       pageQuantity: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        
-
-      },
-      title: {
-        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
