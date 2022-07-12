@@ -14,9 +14,9 @@ const loginValidation = {
     return value;
   },
 
-  admValidation: ({username, password}) => {
-    if(username === 'admin' && password === 's3nh4S3gur4???') return true
-  }
+  admValidation: ({ username, password }) => {
+    if (username === 'admin' && password === 's3nh4S3gur4???') return true;
+  },
 
 };
 
